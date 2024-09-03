@@ -11,7 +11,7 @@
             background-color: rgba(0, 0, 0, 0.67);
         "></div>
         <div style="z-index: 22; margin-left: 73px; margin-top: 98px;">
-            <img src="{{ asset('front/contact us.png') }}" style="width: 83%;" alt="Contact Us">
+            <img src="{{ asset('front/contsct us.png') }}" style="width: 83%;" alt="Contact Us">
         </div>
     </div>
 
