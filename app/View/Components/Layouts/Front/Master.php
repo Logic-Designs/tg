@@ -14,12 +14,12 @@ class Master extends Component
      * @return void
      */
     public $setting;
-    public $contcat_content;
+    public $contact_content;
 
     public function __construct()
     {
         $this->setting = Setting::first();
-        $this->contcat_content = ContactContent::first();
+        $this->contact_content = ContactContent::first();
     }
 
     /**

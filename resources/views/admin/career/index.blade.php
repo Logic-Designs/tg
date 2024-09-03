@@ -16,6 +16,7 @@
                                         <th>Last Name</th>
                                         <th>Email</th>
                                         <th>Phone</th>
+                                        <th>CV</th>
                                         <th>@lang('admin.Action')</th>
                                     </tr>
                                 </thead>
@@ -25,7 +26,8 @@
                                             <td class="ms-1">{{ $career->first_name }}</td>
                                             <td>{{ $career->last_name }}</td>
                                             <td>{{ $career->email }}</td>
-                                            <td>{{ $career->email }}</td>
+                                            <td>{{ $career->phone_number }}</td>
+                                            <td><a href="{{ url($career->cv) }}">CV</a></td>
                                             <td class="text-muted">
                                                 <x-admin.button.delete route="admin.careers.destroy" :id="$career->id" />
                                             </td>

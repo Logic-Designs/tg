@@ -8,9 +8,9 @@
         <!-- Section: Social media -->
 
         <!-- Section: Links  -->
-        <x-layouts.front.links-section :setting="$setting" :contact_content="$contact_content"/>
+        <x-layouts.front.links-section :setting="$setting" :contact_content="$contact_content" logo="logo-black.png"/>
         <!-- Section: Links  -->
 
-        
+
         <!-- End of .container -->
     </footer>

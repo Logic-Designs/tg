@@ -1905,7 +1905,7 @@ i {
   align-items: center;
   font-weight: 500;
   display: flex;
-  flex: 1; 
+  flex: 1;
   justify-content: center
 }
 
@@ -2238,12 +2238,12 @@ input {
 /*----------------------------------------------end-media-center----------------------------------------*/
 /*----------------------------------------------OUR DEVELOPMENTS----------------------------------------*/
 .Residential-title{
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 .Commercial-title{
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -2261,7 +2261,7 @@ input {
   color: #f77f00;
 }
 .title-Gallery{
-    display: flex;   
+    display: flex;
     align-items: center;
 }
 .iti__selected-flag {
@@ -2360,10 +2360,10 @@ input {
         min-height: 353px;
  }
   .video-div-single-News{
-      width: 100%; 
+      width: 100%;
       width: 100%;
       align-items: center;
-      display: flex; 
+      display: flex;
       justify-content: center;
   }
     .title-photo-and-video{
@@ -2374,7 +2374,7 @@ input {
     }
 
 .photos-div{
-    width: 100%; 
+    width: 100%;
     display: flex;
         align-items: center;
         justify-content: space-between;
@@ -2847,10 +2847,10 @@ input {
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 figure.snip1156 {
-  font-family: 'Raleway', Arial, sans-serif; 
+  font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
   position: relative;
-  overflow: hidden;  
+  overflow: hidden;
   height: 271px;
   margin: 10px;
   max-width: 365px;
@@ -3106,7 +3106,7 @@ a{
         .Commercial-title {
         flex-direction: column;
     }
-    
+
     .category-title{
     margin-bottom: 2px !important;
     width: 100% !important;
@@ -3116,17 +3116,17 @@ a{
         margin-bottom:26px !important;
     }
     /*media-center*/
-    
+
     .btn-media-center{
          position: relative !important;
-         bottom: 25% !important; 
+         bottom: 25% !important;
     }
     .news-container .row{
             height: 112vh !important;
             flex-direction: column !important;
     padding: 2px 12px !important;
     align-items: center !important;
-    
+
     }
     .news-container{
         align-items: center;
@@ -3248,7 +3248,7 @@ a{
       .last-product{
           margin-left: 33px !important;
           margin-right: 10px !important;
-          
+
       }
       .photos-div{
           flex-direction: column;
@@ -3259,7 +3259,7 @@ a{
         scale: 0.5 !important;
     }
     .news-container .row .card .details{
-        padding-top: 24px; 
+        padding-top: 24px;
     }
         /*why-choose-us*/
     .counter{
@@ -3278,7 +3278,7 @@ a{
 .Mission-description{
 
         padding: 10px 10px !important;
-    
+
 }
 
   .a-project-content {
@@ -3311,7 +3311,7 @@ flex-direction: column;
   .why-choose-us{
 min-height: 126vh !important;
 padding: 19px;
-    
+
   }
   .counter{
           min-height: 100%;
@@ -3330,7 +3330,7 @@ padding: 19px;
 @media (max-width: 486px){
  .logo-our-development{
      scale: 0.7;
-     margin-left: 0px !important; 
+     margin-left: 0px !important;
     width: 100%;
     scale: 0.7;
     text-align: center;
@@ -3362,9 +3362,9 @@ padding: 19px;
         scale: 0.3 !important;
     }
     /*contact-us*/
-    .addres-contact{    
-        font-size: smaller; 
-        
+    .addres-contact{
+        font-size: smaller;
+
     }
     /*career*/
         .form-container .col-1{
@@ -3383,7 +3383,7 @@ padding: 19px;
 
     .Mission-About-Us-Section{
         height: 50vh;
-        
+
     }
     /*media-center*/
     .details{
@@ -3393,7 +3393,7 @@ padding: 19px;
  #menuToggle{
       visibility: hidden;
   }
-  
+
   @media (max-width: 424px){
      .Title-Hero-Section{
          margin-left: 0rem;
@@ -3415,5 +3415,5 @@ padding: 19px;
 
     }
 
-      
+
   }

@@ -82,7 +82,7 @@
     <!--------------------------------------------------start-header-section------------------------------------------------------------->
     <header>
         <div class="logo" data-aos-delay="3000" data-aos-duration="3000" data-aos="slide-right">
-            <img src="{{ url($setting->image) }}" alt="TG Developments" />
+            <img src="{{ url($setting->logo) }}" alt="TG Developments" />
         </div>
         <nav class="conainer-navbar-header">
             <ul class="navbar-header">
@@ -142,6 +142,12 @@
             </div>
         </div>
     </header>
+
+    @if(session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @endif
 
     {{ $slot }}
 

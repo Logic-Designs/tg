@@ -14,5 +14,6 @@ class Career extends Model
         'last_name',
         'email',
         'phone_number',
+        'cv'
     ];
 }

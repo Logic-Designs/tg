@@ -11,6 +11,7 @@ use App\Http\Controllers\Admin\HomeContentController;
 use App\Http\Controllers\Admin\LanguageController;
 use App\Http\Controllers\Admin\MediaController;
 use App\Http\Controllers\Admin\PageController;
+use App\Http\Controllers\Admin\PartnerController;
 use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\Admin\SubMediaController;
@@ -42,10 +43,11 @@ Route::middleware('superadmin')->group(function(){
     });
 
     Route::resource('sliders', SliderController::class);
+    Route::resource('partners', PartnerController::class);
     Route::resource('developments', DevelopmentController::class);
     Route::delete('/developments/photos/{photo}', [DevelopmentController::class, 'destroyPhoto'])->name('developments.photos.destroy');
     Route::resource('media', MediaController::class);
-    
+
     Route::get('media/{media}/sub-media', [SubMediaController::class, 'index'])->name('media.sub.index');
     Route::post('media/{media}/sub-media', [SubMediaController::class, 'store'])->name('media.sub.store');
     Route::get('media/sub-media/{id}/edit', [SubMediaController::class, 'edit'])->name('media.sub.edit');

@@ -2,6 +2,7 @@
 
 namespace App\View\Components\Layouts\Front;
 
+use App\Models\ContactContent;
 use Illuminate\View\Component;
 
 class Footer2 extends Component
@@ -11,9 +12,13 @@ class Footer2 extends Component
      *
      * @return void
      */
-    public function __construct(public $setting, public $contact_content)
+
+    public $contact_content;
+
+    public function __construct(public $setting)
     {
-        //
+        $this->contact_content = ContactContent::first();
+
     }
 
     /**

@@ -11,6 +11,7 @@ class Setting extends Model
 
     protected $fillable = [
         'meta_keywords',
+        'meta_title',
         'meta_description',
         'google_analytic',
         'logo',

@@ -25,7 +25,7 @@
                                             <td class="ms-1">{{ $contact->first_name }}</td>
                                             <td>{{ $contact->last_name }}</td>
                                             <td>{{ $contact->email }}</td>
-                                            <td>{{ $contact->email }}</td>
+                                            <td>{{ $contact->phone_number }}</td>
                                             <td class="text-muted">
                                                 <x-admin.button.delete route="admin.contacts.destroy" :id="$contact->id" />
                                             </td>

@@ -7,7 +7,7 @@
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <!-- Content -->
                 <h6 class="text-uppercase fw-bold mb-4">
-                    <img src="{{ url('front/logo-black.png') }}" alt="TG Developments" class="logo-image-footer" width="100px" />
+                    <img src="{{ url('front/' . $logo) }}" alt="TG Developments" class="logo-image-footer" width="100px" />
                     <!--<img src="./TG Developments final logo black-01 (1) copy.png" style="width: 40%;" alt="">-->
                 </h6>
                 <div>
@@ -29,7 +29,7 @@
                     <a href="{{ route('media') }}" class="text-reset">MEDIA CENTER</a>
                 </div>
                 <div>
-                    <a href="{{ route('career') }}" class="text-reset">CAREERS</a>
+                    <a href="{{ route('careers') }}" class="text-reset">CAREERS</a>
                 </div>
             </div>
             <!-- Grid column -->
@@ -39,10 +39,10 @@
                 <!-- Links -->
                 <h6 class="text-uppercase fw-bold mb-4">DEVELOPMENTS</h6>
                 <div>
-                    <a href="{{ route('development') }}#Residential" class="text-reset">RESIDENTIAL</a>
+                    <a href="{{ route('developments') }}#Residential" class="text-reset">RESIDENTIAL</a>
                 </div>
                 <div class="pt-3">
-                    <a href="{{ route('development') }}#Commercial" class="text-reset ">COMMERCIAL</a>
+                    <a href="{{ route('developments') }}#Commercial" class="text-reset ">COMMERCIAL</a>
                 </div>
             </div>
             <!-- Grid column -->
@@ -52,9 +52,9 @@
                 <!-- Links -->
                 <h6 class="text-uppercase fw-bold mb-4">GET IN TOUCH</h6>
                 <div><i class="fas fa-home me-3"></i> {{ $contact_content->address }}</div>
-                <div class="py-4" style="    display: flex;
+                <div class="py-4" style="display: flex;
 align-items: center;
-justify-content: center;">
+">
                     <i class="fas fa-envelope me-3"></i>
                     {{ $contact_content->email }}
                 </div>
@@ -78,7 +78,7 @@ justify-content: center;">
 
                 @foreach(json_decode($contact_content->social, true) as $social)
                 <a class="btn btn-outline-light btn-floating m-1" href="{{ $social['url'] }}" role="button"><i
-                        class="{{ $social->icon }}"></i></a>
+                        class="{{ $social['icon'] }}"></i></a>
                 @endforeach
             </section>
             <!-- Section: Social media -->

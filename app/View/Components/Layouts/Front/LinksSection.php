@@ -11,7 +11,7 @@ class LinksSection extends Component
      *
      * @return void
      */
-    public function __construct(public $setting, public $contact_content)
+    public function __construct(public $setting, public $contact_content, public $logo)
     {
         //
     }
