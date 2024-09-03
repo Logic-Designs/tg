@@ -6,7 +6,7 @@
     <div style="z-index: 22;
     margin-left: 53px;
     margin-top: 98px;" >
-     <img src="./about us.png" alt="Italian Trulli">
+     <img src="{{ url('front/about us.png') }}" alt="Italian Trulli">
 
     </div>
 
